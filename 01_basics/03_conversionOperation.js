@@ -20,3 +20,19 @@ console.log(booleanIsLoggedIn)
 //"hello"->true
 
 
+let str1="hello"
+let str2=" duniya"
+let str3=str1+str2
+console.log(str3)
+
+console.log(1+"2")
+console.log("2"+1)
+// let x=1
+// const y=x++
+// console.log(x)
+// console.log(y)
+
+let x=1
+const y=++x
+console.log(x)
+console.log(y)
