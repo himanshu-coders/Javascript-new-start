@@ -12,3 +12,13 @@ console.log(typeof undefined);//output undefined
 
 console.log(typeof null);//output object
  console.log(3+3)
+
+
+ let age=18;
+ if( age<18){
+
+    console.log("you are not eligible to vote")
+ }
+ else{
+    console.log("you are eligible to vote")
+ }
