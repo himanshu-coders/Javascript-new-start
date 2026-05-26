@@ -19,7 +19,18 @@ let myObj={
 const myFunction=function(){
     console.log("Hello World")
 }
+console.log(myFunction) //symbol
+// console.log(typeof heros) //object
+// console.log(typeof myObj) //object
+// console.log(typeof myFunction) //function
 
-console.log(typeof heros) //object
-console.log(typeof myObj) //object
-console.log(typeof myFunction) //function
+
+//+++++(++++++++++++++++++++++++++++++++++++++++++++
+//Stack(primitive), Heap(non primitive ) type of memery
+
+let myYoutubeName='Himanshu-coders'
+let anothername=myYoutubeName
+anothername='Siddharth-coders-2'
+console.log(myYoutubeName) //Himanshu-coders
+console.log(anothername) //Himanshu-coders
+//Siddharth-coders-2
