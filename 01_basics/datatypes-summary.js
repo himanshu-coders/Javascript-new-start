@@ -34,3 +34,13 @@ anothername='Siddharth-coders-2'
 console.log(myYoutubeName) //Himanshu-coders
 console.log(anothername) //Himanshu-coders
 //Siddharth-coders-2
+
+let userOne={
+    name:"Himanshu",
+    age:24,
+}
+
+let userTwo=userOne
+userTwo.name="Vanshika"
+console.log(userOne.name)
+console.log(userTwo.name) //{name: "Vanshika", age: 24}
