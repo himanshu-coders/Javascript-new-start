@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HEllo Himanshu</title>
+</head>
+<body style="background-color:#212121; color:#fff">
+    <ul class="language">
+        <li>Javscript</li>
+
+    </ul>
+</body>
+
+<script>
+function addlanguage(langname){
+    const li=document.createElement('li')
+    li.innerHTML=`${langname}`
+    document.querySelector('.language').appendChild(li)
+}
+addlanguage("java")
+
+function addOptilanguage(langName){
+  const li =  document.createElement('li')
+  li.appendChild(document.createTextNode(langName))
+document.querySelector('.language').appendChild(li)
+}
+addOptilanguage('golang')
+addOptilanguage('golang')
+
+//edit
+const secondLang=document.querySelector("li:nth-child(2)")
+// secondLang.innerHTML="hello"
+const newli=document.createElement('li')
+newli.textContent="mojo"
+secondLang.replaceWith(newli)
+//remove
+
+const lastlang=document.querySelector('li:last-child')
+lastlang.remove()
+</script>
+</html>
