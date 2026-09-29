@@ -15,3 +15,11 @@ Object literal
 - Prototype
 - Classes
 - Instances(new,this)
+
+
+## 4 pillars
+abstraction
+encapsulation 
+inheritence
+polymorphism
+
